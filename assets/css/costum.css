@@ -1,0 +1,125 @@
+body{
+	background-color: #696969;
+}
+.top-nav{
+	height: 10px;
+	background-color: #195e75;
+}
+nav.navbar{
+	border-radius: 0px !important;
+	border: 0;
+	min-height: 50px;
+}
+.navbar-brand{
+	padding-left: 20px;
+	padding-top: 6px;	
+}
+.navbar-brand>img:hover{
+	box-shadow: 2px 2px 2px #f8c62d;
+}
+.nav>li>a:hover{
+	color: white !important;
+}
+.nav>li{
+	border-bottom: 1px solid;
+}
+.nav>li:hover{
+	border-color: white;
+}
+.dropdown-menu>li>a:hover{
+	color: black !important;
+}
+#slider{
+	box-shadow: 3px 3px 5px;
+}
+/*slider*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-control{
+	opacity: 0;
+}
+/*end slider*/
+/*owl crausel*/
+#owl{
+	margin-top: 5px;
+}
+#owl .item{
+  margin: 3px;
+  box-shadow: 3px 3px 3px;
+}
+#owl .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*end owl crausel*/
+/*conten foto thumbnail*/
+.content-foto{
+	margin-top: 15px;
+}
+.panel{
+	border-radius: 0px !important;
+	border: 0;
+	box-shadow: none;
+	margin-bottom: 0px;
+	box-shadow: 3px 3px 5px;
+}
+.panel-default>.panel-heading{
+	background-color: #195e75;
+	border: none;
+	border-radius: 0px !important;
+	color: white;
+}
+.panel-body{
+	background-color: #A9A9A9;
+	padding:10px;
+}
+.thumbnail{
+	padding: 1px;
+	margin-bottom: 10px;
+	background: none;
+	border: none;
+}
+.thumbnail img:hover{
+	opacity:0.6;
+}
+.caption a:hover{
+	text-decoration: none;
+	color: #f8c62d;
+}
+.content{
+	margin-bottom: 10px;
+}
+/*end*/
+/*footer*/
+.footer{
+	margin-top: 8px;
+	background-color: #222;
+	border-bottom: 10px solid !important;
+	border-color:  #010101 !important;
+	text-align: center;
+	color: white;
+	height: 70px;
+	padding-top: 20px;
+}
+/*end footer*/
